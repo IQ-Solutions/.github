@@ -1,0 +1,9 @@
+issuer: https://token.actions.githubusercontent.com
+subject_pattern: repo:IQ-Solutions/.*
+
+repositories:
+  - nia-theme
+  - twigextmodule
+
+permissions:
+  contents: read
