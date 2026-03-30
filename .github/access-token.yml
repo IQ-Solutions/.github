@@ -1,6 +1,6 @@
 origin: IQ-Solutions/.github-private
 statements:
   - subjects:
-    - repo:IQ-Solutions/test-sts:ref:*
+    - repo:IQ-Solutions/test-sts:ref:refs/heads/main
     permissions:
       contents: read
