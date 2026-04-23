@@ -4,7 +4,9 @@ subject_pattern: "repo:IQ-Solutions/.*"
 repositories:
   - nia_theme
   - twigextmodule
-  - test-sts
+
+claim_pattern:
+  workflow_ref: "^IQ-Solutions/(nia-blsa-iq|nia-card|nia-alzheimers-iq|nia-main-iq|nia-ros-iq|nia-pos-iq|nia_theme|nia-alzheimers-chatbot|nia-order-reporting)/.*"
 
 permissions:
   contents: read
