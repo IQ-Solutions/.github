@@ -1,8 +1,0 @@
-issuer: https://token.actions.githubusercontent.com
-subject_pattern: "repo:IQ-Solutions/.*"
-
-repositories:
-- nia-main-iq
-
-permissions:
-  contents: read
