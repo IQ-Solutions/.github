@@ -4,6 +4,7 @@ subject_pattern: "repo:IQ-Solutions/.*"
 repositories:
   - nia-theme
   - twigextmodule
+  - test-sts
 
 permissions:
   contents: read
