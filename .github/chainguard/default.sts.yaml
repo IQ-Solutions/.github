@@ -8,3 +8,4 @@ repositories: []
 
 permissions:
   contents: read
+  packages: read
