@@ -1,5 +1,5 @@
 issuer: https://token.actions.githubusercontent.com
-subject_pattern: "repo:IQ-Solutions/hrsa.*"
+subject_pattern: "repo:IQ-Solutions/.*"
 
 claim_pattern:
   workflow_ref: "^IQ-Solutions/hrsa.*/.*"
