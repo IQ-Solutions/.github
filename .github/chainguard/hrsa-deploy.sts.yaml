@@ -1,0 +1,20 @@
+issuer: https://token.actions.githubusercontent.com
+subject_pattern: "repo:IQ-Solutions/hrsa.*"
+
+claim_pattern:
+  workflow_ref: "^IQ-Solutions/hrsa.*/.*"
+
+repositories:
+  - hrsa-www-deploy
+  - hrsa-bsc-deploy
+  - hrsa-bhw-deploy
+  - hrsa-bphc-deploy
+  - hrsa-ph-deploy
+  - hrsa-rw-deploy
+  - hrsa-mchb-deploy
+  - hrsa-nhsc-deploy
+  - hrsa-od-deploy
+  - hrsa-ns-deploy
+
+permissions:
+  contents: write
